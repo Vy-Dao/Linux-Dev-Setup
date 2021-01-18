@@ -34,6 +34,12 @@ https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-
 ```
 sudo apt install curl make vim
 ```
+**Installing yarn**
+```
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt update && sudo apt install yarn
+```
 
 **Additional Archive Utilities**
 ```
