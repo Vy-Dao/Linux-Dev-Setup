@@ -30,9 +30,9 @@ sudo apt install ubuntu-restricted-extras
 **Zoom**
 https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux#h_89c268b4-2a68-4e4c-882f-441e374b87cb
 
-**Installing curl, make, vim**
+**Installing curl, make, vim, npm**
 ```
-sudo apt install curl make vim
+sudo apt install curl make vim npm
 ```
 **Installing yarn**
 ```
