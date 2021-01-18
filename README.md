@@ -30,18 +30,16 @@ sudo apt install ubuntu-restricted-extras
 **Zoom**
 https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux#h_89c268b4-2a68-4e4c-882f-441e374b87cb
 
-**Installing curl, make, vim
-**
+**Installing curl, make, vim**
 ```
 sudo apt install curl make vim
 ```
 
-**Additional Archive Utilities
-**
+**Additional Archive Utilities**
 ```
 sudo apt install rar unrar p7zip-full p7zip-rar
 ```
-** Terminal Configuration — Case-insensitive tab completion**
+**Terminal Configuration — Case-insensitive tab completion**
 ```
 if [ ! -a ~/.inputrc ]; then echo '$include /etc/inputrc' > ~/.inputrc; fi
 echo 'set completion-ignore-case On' >> ~/.inputrc
@@ -74,7 +72,7 @@ Host gitlab.com
         IdentityFile /home/user/.ssh/id_ed25519
 ```
 
-Test Github and Gitlab SSH
+**Test Github and Gitlab SSH**
 ```
 ssh -T git@github.com
 ssh -T git@gitlab.com
