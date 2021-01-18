@@ -45,7 +45,7 @@ if [ ! -a ~/.inputrc ]; then echo '$include /etc/inputrc' > ~/.inputrc; fi
 echo 'set completion-ignore-case On' >> ~/.inputrc
 ```
 
-### Git Set-up
+## Git Set-up
 ```
 sudo apt install git
 git config --global user.email "you@example.com"
