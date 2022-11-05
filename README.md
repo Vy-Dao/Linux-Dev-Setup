@@ -73,13 +73,12 @@ sudo apt install -y nodejs
 https://code.visualstudio.com/download
 ```
 **Android Studio**
-``
+```
 https://developer.android.com/studio/index.html#downloads
 sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
 https://developer.android.com/studio/install#linux
 Android Studio -> Tools -> Create Desktop Entry
-
-``
+```
 **VLC**
 ```
 sudo snap install vlc
